@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maître Bertrand DAVID – Avocat à Bordeaux</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo Maître Bertrand DAVID">
+      <h1>Maître Bertrand DAVID</h1>
+      <p>Avocat au Barreau de Bordeaux</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#domaines">Domaines de compétence</a></li>
+        <li><a href="#vision">Notre vision</a></li>
+        <li><a href="#avocat">Maître David</a></li>
+        <li><a href="#honoraires">Honoraires</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Accueil -->
+  <section id="accueil" class="hero">
+    <img src="palais-justice-bordeaux.jpg" alt="Palais de Justice de Bordeaux">
+    <div class="hero-text">
+      <h2>Bienvenue au cabinet de Maître Bertrand DAVID</h2>
+      <p>Accompagnement rigoureux et personnalisé en droit pénal et autres domaines juridiques.</p>
+      <a href="#contact" class="btn">Prendre rendez-vous</a>
+    </div>
+  </section>
+
+  <!-- Domaines de compétence -->
+  <section id="domaines">
+    <h2>Domaines de compétence</h2>
+    <div class="domaines-list">
+      <div class="domaine">
+        <h3>Droit pénal</h3>
+        <p>Défense de vos droits et assistance devant les juridictions pénales.</p>
+      </div>
+      <div class="domaine">
+        <h3>Droit civil</h3>
+        <p>Contentieux civil et assistance juridique dans divers litiges.</p>
+      </div>
+      <div class="domaine">
+        <h3>Droit du travail</h3>
+        <p>Conseil et défense des employeurs et salariés.</p>
+      </div>
+      <div class="domaine">
+        <h3>Droit de la famille</h3>
+        <p>Divorce, garde des enfants, successions et patrimoine.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notre vision -->
+  <section id="vision">
+    <h2>Notre vision</h2>
+    <p>Au cabinet de Maître Bertrand DAVID, nous plaçons l’écoute, la rigueur et la transparence au cœur de notre pratique juridique. Chaque dossier est traité avec professionnalisme et diligence, afin de garantir les meilleurs résultats pour nos clients.</p>
+  </section>
+
+  <!-- Maître David -->
+  <section id="avocat">
+    <h2>Maître Bertrand DAVID</h2>
+    <img src="maitre-david.jpg" alt="Maître Bertrand DAVID">
+    <p>Avocat expérimenté en droit pénal et droit civil, Maître David accompagne ses clients depuis plus de 15 ans avec un engagement total et un souci constant de l’efficacité.</p>
+  </section>
+
+  <!-- Honoraires -->
+  <section id="honoraires">
+    <h2>Honoraires</h2>
+    <p>Les honoraires sont fixés en toute transparence selon la nature et la complexité du dossier. Un devis détaillé est fourni avant toute intervention.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Adresse : 55 cours Georges Clémenceau, Bordeaux, France</p>
+    <p>Téléphone : 05 XX XX XX XX</p>
+    <p>Email : contact@cabinet-david.fr</p>
+    <form>
+      <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Maître Bertrand DAVID. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
